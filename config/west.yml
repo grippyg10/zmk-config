@@ -10,5 +10,13 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: charybdis-wireless-mini-zmk-firmware
+      url: https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware.git
+      revision: main
+      path: modules/charybdis-wireless-mini-zmk-firmware
+    - name: charybdis_zmk
+      url: https://github.com/nophramel/charybdis_zmk.git
+      revision: main
+      path: modules/charybdis_zmk
   self:
     path: config
